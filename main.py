@@ -25,7 +25,7 @@ st.set_page_config(
 st.title("🌱 Crop Recommendation System")
 st.write("Welcome to Cropper, a crop recommendation system which will help you in choosing the right crop for your fields.")
 st.markdown("---")
-st.write("I considers the following factors and let you choose the crop on the basis of those factors.")
+st.write("It considers the following factors and let you choose the crop on the basis of those factors.")
 st.write("Just enter the following data and press Predict button and you will have your crop predicted!")
 st.markdown("---")
 
