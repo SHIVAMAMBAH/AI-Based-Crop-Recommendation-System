@@ -77,7 +77,7 @@ if st.button("Predict"):
 
 
 st.markdown("---")
-st.write("Made by Shivam Sharma")
+st.write("Made by Shivam Sharma and Harshita Gupta")
 
 # SideBar
 
