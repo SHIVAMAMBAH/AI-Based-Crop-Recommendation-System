@@ -82,19 +82,120 @@ st.write("Made by Shivam Sharma")
 # SideBar
 
 crop_info = {
-    "Rice": {
+    "apple": {
+        "Scientific Name": "Malus domestica",
+        "Optimal Temperature": "21-24°C",
+        "Water Requirement": "Moderate"
+    },
+    "banana": {
+        "Scientific Name": "Musa acuminata",
+        "Optimal Temperature": "26-30°C",
+        "Water Requirement": "High"
+    },
+    "blackgram": {
+        "Scientific Name": "Vigna mungo",
+        "Optimal Temperature": "25-35°C",
+        "Water Requirement": "Low to Moderate"
+    },
+    "chickpea": {
+        "Scientific Name": "Cicer arietinum",
+        "Optimal Temperature": "10-30°C",
+        "Water Requirement": "Low"
+    },
+    "coconut": {
+        "Scientific Name": "Cocos nucifera",
+        "Optimal Temperature": "27-32°C",
+        "Water Requirement": "High"
+    },
+    "coffee": {
+        "Scientific Name": "Coffea arabica / Coffea canephora",
+        "Optimal Temperature": "15-24°C (Arabica), 24-30°C (Robusta)",
+        "Water Requirement": "Moderate to High"
+    },
+    "cotton": {
+        "Scientific Name": "Gossypium hirsutum",
+        "Optimal Temperature": "21-30°C",
+        "Water Requirement": "Moderate"
+    },
+    "grapes": {
+        "Scientific Name": "Vitis vinifera",
+        "Optimal Temperature": "15-30°C",
+        "Water Requirement": "Moderate"
+    },
+    "jute": {
+        "Scientific Name": "Corchorus olitorius / Corchorus capsularis",
+        "Optimal Temperature": "24-37°C",
+        "Water Requirement": "High"
+    },
+    "kidneybeans": {
+        "Scientific Name": "Phaseolus vulgaris",
+        "Optimal Temperature": "18-30°C",
+        "Water Requirement": "Moderate"
+    },
+    "lentil": {
+        "Scientific Name": "Lens culinaris",
+        "Optimal Temperature": "18-30°C",
+        "Water Requirement": "Low to Moderate"
+    },
+    "maize": {
+        "Scientific Name": "Zea mays",
+        "Optimal Temperature": "18-27°C",
+        "Water Requirement": "Moderate"
+    },
+    "mango": {
+        "Scientific Name": "Mangifera indica",
+        "Optimal Temperature": "24-30°C",
+        "Water Requirement": "Moderate"
+    },
+    "mothbeans": {
+        "Scientific Name": "Vigna aconitifolia",
+        "Optimal Temperature": "25-35°C",
+        "Water Requirement": "Low"
+    },
+    "mungbean": {
+        "Scientific Name": "Vigna radiata",
+        "Optimal Temperature": "20-35°C",
+        "Water Requirement": "Low to Moderate"
+    },
+    "muskmelon": {
+        "Scientific Name": "Cucumis melo",
+        "Optimal Temperature": "25-30°C",
+        "Water Requirement": "Moderate"
+    },
+    "orange": {
+        "Scientific Name": "Citrus sinensis",
+        "Optimal Temperature": "15-30°C",
+        "Water Requirement": "Moderate"
+    },
+    "papaya": {
+        "Scientific Name": "Carica papaya",
+        "Optimal Temperature": "22-30°C",
+        "Water Requirement": "High"
+    },
+    "pigeonpeas": {
+        "Scientific Name": "Cajanus cajan",
+        "Optimal Temperature": "18-38°C",
+        "Water Requirement": "Low to Moderate"
+    },
+    "pomegranate": {
+        "Scientific Name": "Punica granatum",
+        "Optimal Temperature": "20-35°C",
+        "Water Requirement": "Low to Moderate"
+    },
+    "rice": {
         "Scientific Name": "Oryza sativa",
         "Optimal Temperature": "20-35°C",
         "Water Requirement": "High"
     },
-    "Wheat": {
-        "Scientific Name": "Triticum aestivum",
-        "Optimal Temperature": "10-25°C",
+    "watermelon": {
+        "Scientific Name": "Citrullus lanatus",
+        "Optimal Temperature": "24-30°C",
         "Water Requirement": "Moderate"
     },
-    "Maize": {
-        "Scientific Name": "Zea mays",
-        "Optimal Temperature": "18-27°C",
+    # Extra (you had wheat in your previous dict)
+    "wheat": {
+        "Scientific Name": "Triticum aestivum",
+        "Optimal Temperature": "10-25°C",
         "Water Requirement": "Moderate"
     }
 }
